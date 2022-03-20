@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FromScratch:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>FromScratch</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="FromScratch-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="FromScratch:war exploded" />
+    </root>
+  </artifact>
+</component>
