@@ -26,12 +26,15 @@ public class HelloServlet extends HttpServlet {
 //            HttpSession session = req.getSession(true);
 //            session.setAttribute("Username", userName);
             RequestDispatcher rd = req.getRequestDispatcher("WelcomeServlet");
+            resp.sendRedirect();
+
             rd.forward(req, resp);
         } else {
             out.println("<h3>invalid username and Passowrd</h3>");
             RequestDispatcher rd = req.getRequestDispatcher("index.html");
             rd.include(req, resp);
         }
+
     }
 
     public void destroy() {

@@ -15,7 +15,7 @@ public class WelcomeServlet extends HttpServlet {
         String uname=null;
         for (Cookie cookie: request.getCookies()) {
             if(cookie.getName().equals("Username")){
-                uname = cookie.getValue();
+                uname = cookie.getValue().trim();
             }
         }
 //        HttpSession session = request.getSession(false);
