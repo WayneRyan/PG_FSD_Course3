@@ -14,27 +14,25 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@WebServlet(name = "InsertData", value = "/InsertData")
-public class InsertData extends HttpServlet {
+@WebServlet(name = "UpdateServlet", value = "/UpdateServlet")
+public class UpdateServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try {
-            int rollNumber = Integer.parseInt(request.getParameter("txtRollNumber"));
-            String name = request.getParameter("txtRollNumber");
-            Date dob = new SimpleDateFormat("yyyy-mm-dd").parse(request.getParameter("txtDOB"));
-            float mark = Float.parseFloat(request.getParameter("txtMark"));
-            Student student = new Student(rollNumber, name, dob, mark);
+            int rollno = Integer.parseInt(request.getParameter("txtRollno"));
+            String name = request.getParameter("txtName");
+            Date dob = new SimpleDateFormat("yyyy-MM-dd").parse(request.getParameter("txtDOB"));
+            Float mark = Float.parseFloat(request.getParameter("txtMark"));
+            Student student = new Student(rollno, name, dob, mark);
             StudentDAO sdao = new StudentDAO();
-            int result = sdao.insertData(student);
+            int result = sdao.updateData(student);
             PrintWriter out = response.getWriter();
             if (result > 0) {
-                out.println("Record inserted");
+                out.println("Record Updated");
             }
         } catch (ParseException e) {
             e.printStackTrace();
         }
-
     }
-
 }

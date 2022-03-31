@@ -69,7 +69,7 @@ public class StudentDAO {
         return retVal;
     }
 
-    public int updateData(Student student){
+    public int updateData(Student student) {
         int result = 0;
         try {
             Connection con = getConnection();
