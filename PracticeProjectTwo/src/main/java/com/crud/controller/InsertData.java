@@ -21,7 +21,7 @@ public class InsertData extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try {
             int rollNumber = Integer.parseInt(request.getParameter("txtRollNumber"));
-            String name = request.getParameter("txtRollNumber");
+            String name = request.getParameter("txtName");
             Date dob = new SimpleDateFormat("yyyy-mm-dd").parse(request.getParameter("txtDOB"));
             float mark = Float.parseFloat(request.getParameter("txtMark"));
             Student student = new Student(rollNumber, name, dob, mark);

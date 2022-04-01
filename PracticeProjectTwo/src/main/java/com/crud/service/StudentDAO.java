@@ -7,14 +7,17 @@ import java.util.ArrayList;
 
 public class StudentDAO {
     private static Connection getConnection() {
-        Connection retVal = null;
+        Connection con = null;
         try {
+            System.out.println("Loading driver");
             Class.forName("com.mysql.jdbc.Driver");
-            retVal = DriverManager.getConnection("jdbc.mysql://localhost:3305/cred", "root", "Oitnommc3.");
-        } catch (ClassNotFoundException | SQLException e) {
+            System.out.println("Connecting to database");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3305/cred", "root", "Oitnommc3.");
+            System.out.println("Connection is" + (con == null ? "null" : "not null"));
+        } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();
         }
-        return retVal;
+        return con;
     }
 
     public int insertData(Student student) {
@@ -22,7 +25,7 @@ public class StudentDAO {
         try {
             Connection con = getConnection();
             java.sql.Date dob = new java.sql.Date(student.getDOB().getTime());
-            PreparedStatement ps = con.prepareStatement("insert into studentdetails (rollno, studname, dob, marks) values (?, ?, ?, ?)");
+            PreparedStatement ps = con.prepareStatement("insert into studentdetails (rollno, sdudname, dob, marks) values (?, ?, ?, ?)");
             ps.setInt(1, student.getRollno());
             ps.setString(2, student.getStudname());
             ps.setDate(3, dob);
@@ -74,7 +77,7 @@ public class StudentDAO {
         try {
             Connection con = getConnection();
             java.sql.Date dob = new java.sql.Date(student.getDOB().getTime());
-            PreparedStatement ps = con.prepareStatement("update studentdetails set studname=?, dob=?, marks=? where rollno=?");
+            PreparedStatement ps = con.prepareStatement("update studentdetails set sdudname=?, dob=?, marks=? where rollno=?");
             ps.setString(1, student.getStudname());
             ps.setDate(2, dob);
             ps.setFloat(3, student.getMark());
