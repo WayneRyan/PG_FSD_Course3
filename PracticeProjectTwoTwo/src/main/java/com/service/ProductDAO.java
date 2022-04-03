@@ -10,9 +10,7 @@ public class ProductDAO {
         try {
             System.out.println("Loading driver");
             Class.forName("com.mysql.jdbc.Driver");
-            System.out.println("Connecting to database");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3305/project_two", "root", "Oitnommc3.");
-            System.out.println("Connection is" + (con == null ? "null" : "not null"));
         } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();
         }
