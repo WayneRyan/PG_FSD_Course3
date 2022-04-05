@@ -9,62 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5589025a-340d-40d8-8f01-8904c4a6f827" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/artifacts/FlyAway_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/artifacts/FlyAway_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__javax_javaee_web_api_8_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__javax_mvc_javax_mvc_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_30_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/libraries/mysql_mysql_connector_java_8_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/FlyAway.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/src/main/java/com/example/FlyAway/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/src/main/java/com/example/FlyAway/HelloResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/src/main/java/com/example/FlyAway/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlyAway/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeProjectTwoTwo.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Planning.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShot1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShot2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShot3.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/ProductDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PracticeProjectTwoTwo-1.0-SNAPSHOT/WEB-INF/classes/com/service/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/PracticeProjectTwoTwo-1.0-SNAPSHOT/WEB-INF/classes/com/service/ProductDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/ProductDAO.class" afterDir="false" />
-    </list>
+    <list default="true" id="5589025a-340d-40d8-8f01-8904c4a6f827" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648903202177</updated>
-      <workItem from="1648903203479" duration="5781000" />
+      <workItem from="1648903203479" duration="5840000" />
     </task>
     <servers />
   </component>
