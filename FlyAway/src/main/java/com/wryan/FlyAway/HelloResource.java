@@ -1,4 +1,4 @@
-package com.example.FlyAway;
+package com.wryan.FlyAway;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

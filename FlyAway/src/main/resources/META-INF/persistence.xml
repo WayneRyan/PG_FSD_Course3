@@ -5,5 +5,15 @@
              version="2.2">
     <persistence-unit name="default">
 
+        <class>entity.AirlineEntity</class>
+        <class>entity.FlightsEntity</class>
+        <class>entity.PlacesEntity</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3305/flyaway"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value="Oitnommc3."/>
+            <property name="hibernate.show_sql" value="true"/>
+        </properties>
     </persistence-unit>
 </persistence>

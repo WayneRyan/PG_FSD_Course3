@@ -1,4 +1,4 @@
-package com.example.FlyAway;
+package com.wryan.FlyAway;
 
 import java.io.*;
 import javax.servlet.http.*;
