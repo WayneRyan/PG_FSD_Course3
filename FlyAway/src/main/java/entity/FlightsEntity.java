@@ -95,4 +95,16 @@ public class FlightsEntity {
     public void setSource(PlacesEntity placesBySource) {
         this.source = placesBySource;
     }
+
+    @Override
+    public String toString() {
+        return "FlightsEntity{" +
+                "id=" + id +
+                ", price='" + price + '\'' +
+                ", departureTime=" + departureTime +
+                ", airline=" + airline +
+                ", destination=" + destination +
+                ", source=" + source +
+                '}';
+    }
 }

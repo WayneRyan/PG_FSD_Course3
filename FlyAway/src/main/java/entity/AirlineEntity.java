@@ -50,6 +50,15 @@ public class AirlineEntity {
         return result;
     }
 
+    @Override
+    public String toString() {
+        return "AirlineEntity{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", flights=" + flights +
+                '}';
+    }
+
     @OneToMany(mappedBy = "airline")
     public Collection<FlightsEntity> getFlights() {
         return flights;

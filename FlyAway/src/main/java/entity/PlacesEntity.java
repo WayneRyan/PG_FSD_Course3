@@ -56,4 +56,12 @@ public class PlacesEntity {
         this.flightsById = flightsById;
     }
 
+    @Override
+    public String toString() {
+        return "PlacesEntity{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", flightsById=" + flightsById +
+                '}';
+    }
 }
