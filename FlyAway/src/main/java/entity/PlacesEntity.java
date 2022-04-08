@@ -8,10 +8,10 @@ import java.util.Collection;
 public class PlacesEntity {
     private int id;
     private String name;
-    private Collection<FlightsEntity> flightsById;
+    private Collection<FlightsEntity> flights;
 
     @Id
-    @Column(name = "ID")
+    @Column(name = "ID", nullable = false, insertable = false, updatable = false)
     public int getId() {
         return id;
     }
@@ -21,7 +21,7 @@ public class PlacesEntity {
     }
 
     @Basic
-    @Column(name = "name")
+    @Column(name = "name", nullable = false, unique = true)
     public String getName() {
         return name;
     }
@@ -48,12 +48,12 @@ public class PlacesEntity {
     }
 
     @OneToMany(mappedBy = "destination")
-    public Collection<FlightsEntity> getFlightsById() {
-        return flightsById;
+    public Collection<FlightsEntity> getFlights() {
+        return flights;
     }
 
-    public void setFlightsById(Collection<FlightsEntity> flightsById) {
-        this.flightsById = flightsById;
+    public void setFlights(Collection<FlightsEntity> flights) {
+        this.flights = flights;
     }
 
     @Override
@@ -61,7 +61,7 @@ public class PlacesEntity {
         return "PlacesEntity{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", flightsById=" + flightsById +
+                ", flightsById=" + flights +
                 '}';
     }
 }

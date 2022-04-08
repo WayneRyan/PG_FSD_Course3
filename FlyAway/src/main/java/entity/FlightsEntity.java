@@ -14,7 +14,7 @@ public class FlightsEntity {
     private PlacesEntity source;
 
     @Id
-    @Column(name = "ID")
+    @Column(name = "ID", nullable = false, insertable = false, updatable = false)
     public int getId() {
         return id;
     }
@@ -24,7 +24,7 @@ public class FlightsEntity {
     }
 
     @Basic
-    @Column(name = "price")
+    @Column(name = "price", nullable = false)
     public String getPrice() {
         return price;
     }
@@ -34,7 +34,7 @@ public class FlightsEntity {
     }
 
     @Basic
-    @Column(name = "departure_time")
+    @Column(name = "departure_time", nullable = false)
     public Timestamp getDepartureTime() {
         return departureTime;
     }

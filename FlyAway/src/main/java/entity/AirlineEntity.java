@@ -11,7 +11,7 @@ public class AirlineEntity {
     private Collection<FlightsEntity> flights;
 
     @Id
-    @Column(name = "ID")
+    @Column(name = "ID", nullable = false, insertable = false, updatable = false)
     public int getId() {
         return id;
     }
@@ -21,7 +21,7 @@ public class AirlineEntity {
     }
 
     @Basic
-    @Column(name = "name")
+    @Column(name = "name", nullable = false, unique = true)
     public String getName() {
         return name;
     }

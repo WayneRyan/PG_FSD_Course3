@@ -5,5 +5,10 @@
              version="2.2">
     <persistence-unit name="default">
 
+        <class>entity.ProductsEntity</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3305/project_two"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+        </properties>
     </persistence-unit>
 </persistence>

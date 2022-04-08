@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88e38968-e6bc-4d81-af1a-af79a0179a84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson3Project/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/java/controller/AddProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/java/entity/ProductsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/java/repository/ProductsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/AirlineEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/AirlineEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/FlightsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/FlightsEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/PlacesEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/PlacesEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson3Project/Lesson3Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3Project/Lesson3Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson3Project/src/main/java/com/example/Lesson3Project/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson3Project/src/main/java/com/example/Lesson3Project/HelloResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson3Project/src/main/java/com/example/Lesson3Project/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson3Project/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson3Project/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeProjectTwoTwo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeProjectTwoTwo/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.60" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.60" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="FlyAway:war exploded">
@@ -131,7 +130,9 @@
       <option name="presentableId" value="Default" />
       <updated>1649243558209</updated>
       <workItem from="1649243559453" duration="3495000" />
-      <workItem from="1649322886204" duration="4322000" />
+      <workItem from="1649322886204" duration="4542000" />
+      <workItem from="1649336312922" duration="603000" />
+      <workItem from="1649411802544" duration="3189000" />
     </task>
     <servers />
   </component>
