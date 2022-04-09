@@ -10,22 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5589025a-340d-40d8-8f01-8904c4a6f827" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FlyAway/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson3Project/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/java/controller/AddProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/java/entity/ProductsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/java/repository/ProductsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FlyAway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FlyAway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlyAway/src/main/java/entity/AirlineEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FlyAway/src/main/java/entity/AirlineEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlyAway/src/main/java/entity/FlightsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FlyAway/src/main/java/entity/FlightsEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlyAway/src/main/java/entity/PlacesEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FlyAway/src/main/java/entity/PlacesEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/Lesson3Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3Project/Lesson3Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/src/main/java/com/example/Lesson3Project/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/src/main/java/com/example/Lesson3Project/HelloResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/src/main/java/com/example/Lesson3Project/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648903202177</updated>
       <workItem from="1648903203479" duration="5840000" />
-      <workItem from="1649417753338" duration="1217000" />
+      <workItem from="1649417753338" duration="1220000" />
     </task>
     <servers />
   </component>
