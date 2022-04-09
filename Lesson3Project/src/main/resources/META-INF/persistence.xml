@@ -9,6 +9,9 @@
         <properties>
             <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3305/project_two"/>
             <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value="1234567"/>
+            <property name="hibernate.show_sql" value="true"/>
         </properties>
     </persistence-unit>
 </persistence>
