@@ -10,18 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5589025a-340d-40d8-8f01-8904c4a6f827" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lesson3Project/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson3Project/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/.idea/artifacts/Lesson3Project_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3Project/.idea/artifacts/Lesson3Project_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/.idea/libraries/mysql_mysql_connector_java_8_0_27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/Lesson3Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3Project/Lesson3Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/lib/mysql-connector-java-8.0.27-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/lib/mysql-connector-java-8.0.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3Project/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/src/main/java/controller/AddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/java/controller/AddProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/src/main/java/repository/ProductsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/java/repository/ProductsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson3Project/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/java/filters/ValidationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson3Project/src/main/java/listeners/MyListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +121,7 @@
       <updated>1648903202177</updated>
       <workItem from="1648903203479" duration="5840000" />
       <workItem from="1649417753338" duration="1220000" />
-      <workItem from="1649503565347" duration="753000" />
+      <workItem from="1649503565347" duration="1300000" />
     </task>
     <servers />
   </component>
